@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "67c7bda2a0386307470a31ad"
+  },
+  "name": "Gerardo",
+  "surname": "Contreras",
+  "email": "gerardo@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$LesOe+HPuqnRf00zQ0RRcw$DHR1sFhUjfQs4TX2EoWJlGscdvlfEDEUM9Zz81gIVNY",
+  "phone": "12345678",
+  "role": "ADMIN_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-03-05T02:57:38.929Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T02:57:38.929Z"
+  }
+}]

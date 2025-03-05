@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "67c7bea2a0386307470a31b0"
+  },
+  "name": "Bimbo",
+  "category": "Mediana empresa",
+  "years": 50,
+  "impactLevel": "Social",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-03-05T03:01:54.567Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:01:54.567Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7bef0a0386307470a31b2"
+  },
+  "name": "Zara",
+  "category": "Gran empresa",
+  "years": 50,
+  "impactLevel": "Economico",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-03-05T03:03:12.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:03:12.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7bf29a0386307470a31b4"
+  },
+  "name": "KFC",
+  "category": "Pequeña empresa",
+  "years": 95,
+  "impactLevel": "Ambiental",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-03-05T03:04:09.363Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:04:09.363Z"
+  }
+}]

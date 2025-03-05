@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "0b6ac815-10df-488e-a136-c2c3f89290d6",
+		"name": "COMPANIES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42631856"
+	},
+	"item": [
+		{
+			"name": "NEW COMAPNY",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"KFC\",\r\n    \"category\": \"Pequeña empresa\",\r\n    \"years\": 95,\r\n    \"impactLevel\": \"Ambiental\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/RegisterSystem/v1/companies/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"RegisterSystem",
+						"v1",
+						"companies",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND BY A-Z",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/RegisterSystem/v1/companies/A-Z",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"RegisterSystem",
+						"v1",
+						"companies",
+						"A-Z"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND BY Z-A",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/RegisterSystem/v1/companies/Z-A",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"RegisterSystem",
+						"v1",
+						"companies",
+						"Z-A"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND BY YEAR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/RegisterSystem/v1/companies/Years?years=50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"RegisterSystem",
+						"v1",
+						"companies",
+						"Years"
+					],
+					"query": [
+						{
+							"key": "years",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REGISTER",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/RegisterSystem/v1/companies/excel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"RegisterSystem",
+						"v1",
+						"companies",
+						"excel"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
